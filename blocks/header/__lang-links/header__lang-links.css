@@ -1,11 +1,11 @@
 .header__lang-links {
   display: grid;
   grid-template-columns: repeat(2, min-content);
-  gap: 56px;
+  gap: 18px;
   align-items: end;
   list-style: none;
   margin: 0;
-  padding: 5px 0 5px 0;
+  padding: 0 0 5px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   gap: 48px 40px;
-  margin: 0 0 80px 0;
+  margin-bottom: 80px;
 }
 
 .place:last-child {
@@ -14,13 +14,15 @@
   .place {
     grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
     gap: 48px 32px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-    gap: 24px 28px;
+    gap: 48px 28px;
+    margin-bottom: 73px;
   }
 }
 
@@ -28,5 +30,6 @@
   .place {
     grid-template-columns: minmax(min-content, max-content);
     gap: 32px;
+    margin-bottom: 50px;
   }
 }
