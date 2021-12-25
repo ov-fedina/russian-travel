@@ -2,7 +2,6 @@
   font-family: "Inter", "Helvetica", sans-serif;
   margin: 0;
   color: #fff;
-  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -10,6 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
+    max-width: 288px;
     font-size: 42px;
     line-height: 46px;
   }

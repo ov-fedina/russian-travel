@@ -7,9 +7,3 @@
   margin: 0;
   padding: 0 0 5px;
 }
-
-@media screen and (max-width: 1024px) {
-  .header__lang-links {
-    gap: 18px;
-  }
-}
