@@ -8,9 +8,3 @@
   font-weight: bold;
   line-height: 18px;
 }
-
-@media screen and (max-width: 320px) {
-  .intro__list {
-    margin: 34px 0 0;
-  }
-}
